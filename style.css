@@ -1,26 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
 html {
+    scroll-behavior: smooth;
 }
 
 
 body {
-    @font-face {
-        font-family: "PTSans", sans-serif;
-        src: url("assets/fonts/PTSans-Regular.ttf");
-    }
-    @font-face {
-        font-family: "PTSans", sans-serif;
-        src: url("assets/fonts/PTSans-Bold.ttf");
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "PTSans";
+    font-size: 18px;
+    background-color: rgb(210, 226, 240);
+
+}
+@font-face {
+    font-family: "PTSans", sans-serif;
+    src: url("assets/fonts/PTSans-Regular.ttf");
+    font-weight: 100px;
+}
+
+@font-face {
+    font-family: "PTSans", sans-serif;
+    src: url("assets/fonts/PTSans-Bold.ttf");
+    font-weight: 200px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.list-nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: rgb(0, 0, 0);
 }
 
 
-table {
-    border-collapse: collapse;
-}
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
-}
-table.border th {
-    background: #e0e0e0;
-}
+
