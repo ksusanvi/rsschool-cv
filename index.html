@@ -17,10 +17,10 @@
                     <li class="list-nav"><a href="#contacts" class="list-nav">Contacts</a></li>
                     <li class="list-nav"><a href="#brief-information" class="list-nav">Brief information</a></li>
                     <li class="list-nav"><a href="#skills" class="list-nav">Skills</a></li>
-                    <li class="list-nav"><a href="#code-examples" class="list-nav">Code examples</a></li>
                     <li class="list-nav"><a href="#work-experience" class="list-nav">Work experience</a></li>
                     <li class="list-nav"><a href="#education" class="list-nav">Education</a></li>
                     <li class="list-nav"><a href="#language" class="list-nav">Languages</a></li>
+                    <li class="list-nav"><a href="#code-examples" class="list-nav">Code examples</a></li>
                 </ul>
             </nav>
         </div>
@@ -29,9 +29,10 @@
     <main class="main">
         <div class="container main-cont">
             <section class="section profile-sect" id="profile">
-                <img src="assets/photo_cv.jpg" alt="my photo for cv">
+                <img src="assets/photo_cv.png" alt="my photo for cv" height="300">
                 <div class="profile-sect-title">
-                    <h1 class="section-title">Aksana Sanko</h1>
+                    <h1 class="main-title">Aksana Sanko</h1>
+                    <h4 class="section-sub">Junior Frontend Developer</h4>
                 </div>
             </section>
 
@@ -47,9 +48,9 @@
 
             <section  class="all-section" id="brief-information">
                 <h2 class="section-title">Brief information</h2>
-                <p>I know how to work in a team and find a common language.</p>
-                <p>Responsible and attentive employee.</p>
-                <p>I strive to develop, acquire new knowledge and skills.</p>
+                <p>I love cats, coffee and walks. At the moment, coding is a hobby. But I hope there will be more of it in my life and programming will be my main job. Because it's great when work brings pleasure.
+                I know how to work in a team and find a common language. Responsible and attentive employee.
+                I strive to develop, acquire new knowledge and skills. I want to get the knowledge and skills that will be enough for employment in the company.</p>
             </section>
 
             <section  class="all-section" id="skills">
@@ -64,21 +65,6 @@
                 <p>Now I am in the process of learning and improving my skills every day.</p>
             </section>
 
-            <section  class="all-section" id="code-examples">
-                <h2 class="section-title">Code examples</h2>
-                <h4 class="section-title">JavaScript code</h4>
-                <pre class="pre"><code>function multiply(a, b){
-    return a * b
-}</code></pre>
-                <h4 class="section-title">Python code</h4>
-                <pre class="pre"><code>def is_pangram(text):
-    result = ''
-    for i in text.replace(' ', '').lower():
-        if i not in result:
-            result += i
-    return len(result) == 26</code></pre>
-            </section>
-
             <section  class="all-section" id="work-experience">
                 <h2 class="section-title">Work experience</h2>
                 <ul class="section-list">
@@ -88,12 +74,12 @@
 
             <section  class="all-section" id="education">
                 <h2 class="section-title">Education</h2>
-                <h4 class="section-title">University</h4>
+                <h4 class="section-title-subtitle">University</h4>
                 <ul class="section-list">
                     <li class="section-item">Belarusian State University of Informatics and Radioelectronics, Information Communications Engineer.</li>
                     <li class="section-item">Belarusian State University of Informatics and Radioelectronics, Master of Technical Sciences.</li>
                 </ul>
-                <h4 class="section-title">Courses</h4>
+                <h4 class="section-title-subtitle">Courses</h4>
                 <ul class="section-list">
                     <li class="section-item">"Python Generation": a course for beginners, <a href="https://stepik.org/cert/1976014">certificate</a></li>
                 </ul>
@@ -108,19 +94,40 @@
                 </ul>
                 <p>I try to learn English in any free time. I use the English Galaxy app, listen to lectures from this course. I also try to practice speaking with my friends.</p>
             </section>
+
+            <section class="section-precode" id="code-examples">
+                <h2 class="section-title">Code examples</h2>
+            </section>
+
+            <section class="section-code">
+                <h4 class="section-title-code">JavaScript code</h4>
+                <pre class="pre"><code>function multiply(a, b){
+    return a * b
+}</code></pre>
+            </section>
+
+            <section class="section-code">
+                <h4 class="section-title-code">Python code</h4>
+                <pre class="pre"><code>def is_pangram(text):
+    result = ''
+    for i in text.replace(' ', '').lower():
+        if i not in result:
+            result += i
+    return len(result) == 26</code></pre>
+            </section>
         </div>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container footer-cont">
-            <div class="container footer-cont-logo">
-                <a href="https://rs.school/js/" target="_blank"><img src="assets/rs_school_logo.jpg" alt="rs school logo"></a>
+            <div>
+                <a href="https://rs.school/js/" target="_blank"><img src="assets/rs_school_logo.png" alt="rs school logo" height="70px"></a>
             </div>
-            <div class="container footer-cont-year">
+            <div>
                 &copy;2023
             </div>
-            <div class="container footer-cont-logo">
-                <a href="https://github.com/ksusanvi" target="_blank">Aksana Sanko</a>
+            <div>
+                <a href="https://github.com/ksusanvi" target="_blank" class="name-link">Aksana Sanko</a>
             </div>
         </div>
     </footer>
