@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "PTSans";
+    src: url("./assets/fonts/PTSans-Regular.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 22px;
+    font-family: "PTSans";
+    min-width: 350px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(221, 222, 237, 0.559);
+    font-weight: 500px;
+    color: rgb(3, 3, 40);
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgba(23, 28, 99, 0.671);
+}
+
+.list-nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.main-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-sect {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    padding: 25px;
+}
+
+.profile-sect-title {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+
+}
+
+.main-title {
+    position: relative;
+    padding: 40px, 0px, 0px, 0px;
+    margin: 0px;
+    font-size: 60px;
+}
+
+.section-sub {
+    position: relative;
+    padding: 0;
+    margin: 0px;
+    font-size: 25px;
+    text-transform: none;
+}
+
+.main {
+    margin-bottom: auto;
+}
+
+.all-section {
+    width: calc(50% - 20px);
+    padding: 15px;
+    padding-bottom: 25px;
+    border-bottom: 2px dotted rgba(23, 28, 99, 0.671);
+}
+
+.section-title {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.section-title-subtitle {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.section-precode {
+    display: flex;
+    width: 100%;
+}
+
+.section-code {
+    width: calc(50% - 20px);
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+.section-title-code {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pre {
+    padding: 0px;
+    margin: 0px;
+}
+
+.section-list {
+    padding: 0px;
+    margin: 0px;
+    list-style-image: url("./assets/circle.png");
+}
+
+.section-item a {
+    text-decoration: none;
+}
+
+.section-item a:hover {
+    color:rgb(160, 82, 234);
+}
+
+.footer {
+    width: 100%;
+    background-color: rgba(23, 28, 99, 0.671);
+    font-size: 30px;
+}
+
+.footer-cont {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.name-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.name-link a:hover {
+    color:rgb(160, 82, 234);
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 770px) {
+    .section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 22 px;
+    }
+}
