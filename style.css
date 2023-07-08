@@ -169,3 +169,21 @@ body {
 .name-link a:hover {
     color:rgb(160, 82, 234);
 }
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 770px) {
+    .section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 22 px;
+    }
+}
