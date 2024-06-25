@@ -20,7 +20,7 @@ return a * b
 }
 
 ## 5. Work experience
-rsschool-resume(in process)
+rsschool-resume
 https://ksusanvi.github.io/rsschool-cv/cv
 
 ## 6. Education
@@ -31,7 +31,7 @@ https://ksusanvi.github.io/rsschool-cv/cv
   + "Python Generation": a course for beginners, certificate link: https://stepik.org/cert/1976014
 
 ## 7. Language
-* English - A1
+* English - A2
 * Russian - Native
 * Belarusian - Native
 
